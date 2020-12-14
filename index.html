@@ -7,28 +7,36 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="assets/js/script.js" defer></script>
-    <title>Basic HTML5 built</title>
+    <title>JS Workshop</title>
 </head>
 
 <body>
-    <section>
-        <article>
-            <h1>
-                <p>
+    <main>
+        <h1>DOM manipulation</h1> <!-- You can add the event attributes on almost all elements -->
+        <!--<input type="button" value="Alert me" onclick="alertMe()">-->
+        <!-- <input type="button" value="Show box" onclick="showBox()"> -->
+        <!-- <input type="button" value="Hide box" onclick="hideBox()"> -->
+        <!-- <div class="box" id="box" onmouseover="changeColor()"></div> -->
 
-                </p>
-            </h1>
-        </article>
-    </section>
+        <!-- Let's replace those onclicks with something else that isn't in the html file -->
+        <!-- ============================================================================ -->
 
-    <footer>
-        <p>Author: Kristoffer Egholm Wendelboe</p>
-        <p><a href="mailto:mailto@example.com">mailto@example.com</a></p>
-    </footer>
+        <!-- A easier way to add classes and id's to e.g. div -->
+        <!-- using emmet: div#myId -->
+        <!-- using emmet: div.myClass#myId -->
+        <!-- using emmet: input:b.myClass#myId -->
+        <!-- using emmet: input:b#btnAlert -->
+
+        <input type="button" value="Alert me" id="btnAlert">
+        <input type="button" value="Show box" id="btnBoxShow">
+        <input type="button" value="Hide box" id="btnBoxHide">
+        <input type="button" value="Toggle box" id="btnBoxToggle">
+        <div class="box" id="box"></div> 
+    </main>
 </body>
 
 <!--
-    HTML by Kristoffer Egholm Wendelboe
+    HTML by Kristoffer Egholm Wendelboe & Dan Høegh
     UCN MMD 2020
 -->
 
